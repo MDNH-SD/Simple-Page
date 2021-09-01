@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar_bg{
+  background: linear-gradient(green,red);
+  min-height: 100px;
+}
+
+.navbar_h1{
+    color: white;
+}
+.navbar_p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar_p:hover{
+    color: rgb(255, 34, 19);
+    font-size: 30px;
+    transition: 0.5s;
+}
+/* Jumbotrom + slide part */
+/* Nave bar slide*/
+.slide-n
+ {
+    height: 500px;
+    padding-bottom: auto;
+  }
+
+  
+  .slide-nobir1 
+  {
+    background: url(./image_for_MDNH_project/Right\ side\ gap\ background\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .slide-nobir2
+   {
+    background: url(./image_for_MDNH_project/bird\ watching2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  .slide-nobir3
+  {
+    background: url(./image_for_MDNH_project/side-view-purple-color-sweet-william-turkish-carnation-flowers-isolated-white-background-with-copy-space_141793-8596.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+
+  .slide-nobir4
+  {
+    background: url(./image_for_MDNH_project/VirginiaHayes_SavanahSparrow-1024x686.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+
+  .p_for_slide2_3{
+      color: #000;
+  }
+  .p_for_slide1_4{
+      color: yellow;
+  }
+
+  .h1_for_slide{
+      color:green;
+  }
+  .slide_a{
+      color:white;
+      text-decoration: none;
+    }
+    .slide_a:hover{
+      color: rgb(255, 255, 00);
+  }
+ /* Main Section */
+ /*Main Section 1(one) Start*/
+.mainS1 {
+    padding-top: 15px;
+    height: auto;
+    width: 100%;
+    background: sandybrown;
+    padding-bottom: 15px;
+  }
+  .flower_image {
+    margin: auto;
+    text-align: center;
+    height: auto;
+  }
+  .flower_image > img{
+    height: 250px;
+    width: 250px;
+    border: 5px solid rgb(187, 255, 0);
+    border-radius: 100%;
+  }
+  
+ 
+  .main_section1_h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+  }
+  .main_section1_p{
+    margin: auto;
+    text-align: center;
+    height: auto;
+    font-size: 30px;
+  }
+
+
+
+  /* footer start */
+/*  
+Footer Start*/
+.topoffotter {
+  background-color: rgb(58, 51, 51);
+  padding: 30px;
+}
+.topoffotter > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.topoffotter > li {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.topoffotter > ul > li > h4 {
+  color: rgb(18, 241, 18);
+  font-size: 30px;
+  text-align: left;
+}
+
+.topoffotter > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  text-align: left;
+}
+.topoffotter > ul > li > a:hover{
+  color: rgb(235, 214, 30);
+
+}
+.buttom_of_footer{
+  padding: 10px;
+  background: rgb(109, 98, 98);
+}
+.buttom_of_footer > h5{
+  text-align: center;
+font-size: 20px;
+color: yellow;
+}
